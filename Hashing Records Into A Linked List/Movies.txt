@@ -1,0 +1,40 @@
+1101 Casablanca
+1200 Duck Soup
+5570 From Here to Eternity
+6601 Wizard of Oz
+1301 Citizen Kane
+1350 Animal House
+5102 Young Frankenstein
+5234 King Kong
+1405 My Favorite Brunette
+2200 Gone with the Wind
+3103 White Christmas
+3670 It's a Wonderful Life
+2345 Public Enemy
+2870 Jazz Singer
+4490 Doctor Zhivago
+4876 Sound of Music
+8330 Topper
+9400 Caine Mutiny
+7109 Sergeant York
+7405 It Happened One Night
+2467 Bringing Up Baby
+3411 Mr. Hobbs Builds a Dreeam Home
+4444 Terror by Night
+5555 Charlie Chan in Paris
+6666 Charlie Chan in London
+7777 The Hound of Baskersville
+8888 West Side Story
+9999 Vacation
+1111 Christmas Vacation
+2222 Road to Rio
+3333 Road to Hong Kong
+1212 A Night in Casablanca
+1313 Animal Crackers
+1414 Horse Feathers
+5111 Star Wars
+5222 Return of the Jedi
+6111 The Empire Strikes Back
+7111 Good Night Vietnam
+8111 Midnight Cowboy
+9111 The Graduate
