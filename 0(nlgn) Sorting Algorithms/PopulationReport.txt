@@ -1,0 +1,157 @@
+----------------------------------------------
+First and Last 10 Elements After No Sort
+----------------------------------------------
+Index    State              County                        Population   Rank
+----------------------------------------------
+  0     Alabama            Baldwin County                    140415	389
+  1     Alabama            Blount County                      51024	908
+  2     Alabama            Calhoun County                    112249	477
+  3     Alabama            Colbert County                     54984	858
+  4     Alabama            Cullman County                     77483	653
+  5     Alabama            Dale County                        49129	927
+  6     Alabama            Dallas County                      46365	974
+  7     Alabama            DeKalb County                      64452	753
+  8     Alabama            Elmore County                      65874	740
+  9     Alabama            Etowah County                     103459	513
+990     Wisconsin          Sheboygan County                  112646	476
+991     Wisconsin          St. Croix County                   63155	767
+992     Wisconsin          Walworth County                    93759	547
+993     Wisconsin          Washington County                 117493	460
+994     Wisconsin          Waukesha County                   360767	163
+995     Wisconsin          Waupaca County                     51731	896
+996     Wisconsin          Winnebago County                  156763	339
+997     Wisconsin          Wood County                        75555	663
+998     Wyoming            Laramie County                     81607	636
+999     Wyoming            Natrona County                     66533	734
+----------------------------------------------
+First and Last 10 Elements After Heap Sort
+----------------------------------------------
+Index    State              County                        Population   Rank
+----------------------------------------------
+  0     California         Los Angeles County               9519338	1
+  1     Illinois           Cook County                      5376741	2
+  2     Texas              Harris County                    3400578	3
+  3     Arizona            Maricopa County                  3072149	4
+  4     California         Orange County                    2846289	5
+  5     California         San Diego County                 2813833	6
+  6     New York           Kings County                     2465326	7
+  7     Florida            Miami-Dade County                2253362	8
+  8     New York           Queens County                    2229379	9
+  9     Texas              Dallas County                    2218899	10
+990     Vermont            Franklin County                    45417	991
+991     Nevada             Elko County                        45291	992
+992     Indiana            Marshall County                    45128	993
+993     Texas              Navarro County                     45124	994
+994     Florida            Gadsden County                     45087	995
+995     Virginia           Charlottesville city               45049	996
+996     New Mexico         Curry County                       45044	997
+997     Wisconsin          Barron County                      44963	998
+998     North Carolina     Beaufort County                    44958	999
+999     Georgia            Laurens County                     44874	1000
+Heap Sort Iterations: 8426
+----------------------------------------------
+First and Last 10 Elements After No Sort
+----------------------------------------------
+Index    State              County                        Population   Rank
+----------------------------------------------
+  0     Alabama            Baldwin County                    140415	389
+  1     Alabama            Blount County                      51024	908
+  2     Alabama            Calhoun County                    112249	477
+  3     Alabama            Colbert County                     54984	858
+  4     Alabama            Cullman County                     77483	653
+  5     Alabama            Dale County                        49129	927
+  6     Alabama            Dallas County                      46365	974
+  7     Alabama            DeKalb County                      64452	753
+  8     Alabama            Elmore County                      65874	740
+  9     Alabama            Etowah County                     103459	513
+990     Wisconsin          Sheboygan County                  112646	476
+991     Wisconsin          St. Croix County                   63155	767
+992     Wisconsin          Walworth County                    93759	547
+993     Wisconsin          Washington County                 117493	460
+994     Wisconsin          Waukesha County                   360767	163
+995     Wisconsin          Waupaca County                     51731	896
+996     Wisconsin          Winnebago County                  156763	339
+997     Wisconsin          Wood County                        75555	663
+998     Wyoming            Laramie County                     81607	636
+999     Wyoming            Natrona County                     66533	734
+----------------------------------------------
+First and Last 10 Elements After Quick Sort
+----------------------------------------------
+Index    State              County                        Population   Rank
+----------------------------------------------
+  0     California         Los Angeles County               9519338	1
+  1     Illinois           Cook County                      5376741	2
+  2     Texas              Harris County                    3400578	3
+  3     Arizona            Maricopa County                  3072149	4
+  4     California         Orange County                    2846289	5
+  5     California         San Diego County                 2813833	6
+  6     New York           Kings County                     2465326	7
+  7     Florida            Miami-Dade County                2253362	8
+  8     New York           Queens County                    2229379	9
+  9     Texas              Dallas County                    2218899	10
+990     Vermont            Franklin County                    45417	991
+991     Nevada             Elko County                        45291	992
+992     Indiana            Marshall County                    45128	993
+993     Texas              Navarro County                     45124	994
+994     Florida            Gadsden County                     45087	995
+995     Virginia           Charlottesville city               45049	996
+996     New Mexico         Curry County                       45044	997
+997     Wisconsin          Barron County                      44963	998
+998     North Carolina     Beaufort County                    44958	999
+999     Georgia            Laurens County                     44874	1000
+Quick Sort Iterations: 7857
+----------------------------------------------
+First and Last 10 Elements After No Sort
+----------------------------------------------
+0    Index              State                        County   PopulationRank
+----------------------------------------------
+  0     Alabama            Baldwin County                    140415	389
+  1     Alabama            Blount County                      51024	908
+  2     Alabama            Calhoun County                    112249	477
+  3     Alabama            Colbert County                     54984	858
+  4     Alabama            Cullman County                     77483	653
+  5     Alabama            Dale County                        49129	927
+  6     Alabama            Dallas County                      46365	974
+  7     Alabama            DeKalb County                      64452	753
+  8     Alabama            Elmore County                      65874	740
+  9     Alabama            Etowah County                     103459	513
+990     Wisconsin          Sheboygan County                  112646	476
+991     Wisconsin          St. Croix County                   63155	767
+992     Wisconsin          Walworth County                    93759	547
+993     Wisconsin          Washington County                 117493	460
+994     Wisconsin          Waukesha County                   360767	163
+995     Wisconsin          Waupaca County                     51731	896
+996     Wisconsin          Winnebago County                  156763	339
+997     Wisconsin          Wood County                        75555	663
+998     Wyoming            Laramie County                     81607	636
+999     Wyoming            Natrona County                     66533	734
+----------------------------------------------
+First and Last 10 Elements After Merge Sort
+----------------------------------------------
+0    Index              State                        County   PopulationRank
+----------------------------------------------
+  0     California         Los Angeles County               9519338	1
+  1     Illinois           Cook County                      5376741	2
+  2     Texas              Harris County                    3400578	3
+  3     Arizona            Maricopa County                  3072149	4
+  4     California         Orange County                    2846289	5
+  5     California         San Diego County                 2813833	6
+  6     New York           Kings County                     2465326	7
+  7     Florida            Miami-Dade County                2253362	8
+  8     New York           Queens County                    2229379	9
+  9     Texas              Dallas County                    2218899	10
+990     Vermont            Franklin County                    45417	991
+991     Nevada             Elko County                        45291	992
+992     Indiana            Marshall County                    45128	993
+993     Texas              Navarro County                     45124	994
+994     Florida            Gadsden County                     45087	995
+995     Virginia           Charlottesville city               45049	996
+996     New Mexico         Curry County                       45044	997
+997     Wisconsin          Barron County                      44963	998
+998     North Carolina     Beaufort County                    44958	999
+999     Georgia            Laurens County                     44874	1000
+Merge Sort Iterations: 19952
+----------------------------------------------
+Amount of iterations the Heap Sort took: 8426
+Amount of iterations the Quick Sort took: 7857
+Amount of iterations the Merge Sort took: 19952
