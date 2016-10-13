@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Lineup"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="teamInformationPanel" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="twoLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="twoTextField" min="-2" pref="230" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="twoComboBox" min="-2" pref="185" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="fourLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="threeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="fiveLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="sevenLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="sixLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="eightLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nineLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="nineTextField" min="-2" pref="230" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="nineComboBox" min="-2" pref="185" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="threeTextField" alignment="0" min="-2" pref="230" max="-2" attributes="0"/>
+                                          <Component id="fourTextField" alignment="0" min="-2" pref="230" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="fourComboBox" alignment="0" min="-2" pref="185" max="-2" attributes="0"/>
+                                          <Component id="threeComboBox" alignment="0" min="-2" pref="185" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="sixTextField" alignment="0" min="-2" pref="230" max="-2" attributes="0"/>
+                                          <Component id="eightTextField" alignment="0" min="-2" pref="230" max="-2" attributes="0"/>
+                                          <Component id="sevenTextField" alignment="0" min="-2" pref="230" max="-2" attributes="0"/>
+                                          <Component id="fiveTextField" alignment="0" min="-2" pref="230" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="sixComboBox" alignment="0" min="-2" pref="185" max="-2" attributes="0"/>
+                                          <Component id="eightComboBox" alignment="0" min="-2" pref="185" max="-2" attributes="0"/>
+                                          <Component id="sevenComboBox" alignment="0" min="-2" pref="185" max="-2" attributes="0"/>
+                                          <Component id="fiveComboBox" alignment="0" min="-2" pref="185" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="clearButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="oneLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="oneTextField" min="-2" pref="230" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="oneComboBox" min="-2" pref="185" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="41" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="okButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="exitButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="teamInformationPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="oneLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="oneTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="oneComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="twoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="twoTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="twoComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="threeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="threeTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fourLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fourTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="threeComboBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="fourComboBox" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fiveLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fiveTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="sixLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sixTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="sevenLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sevenTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="eightLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="eightTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="fiveComboBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="sixComboBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="sevenComboBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="eightComboBox" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nineLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nineTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nineComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="okButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="exitButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="clearButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="oneTextField">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="H. Perkins"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="oneTextFieldFocusGained"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="oneTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="teamInformationPanel">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Team Information"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="teamNameLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="teamNameTextField" max="32767" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="homeButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  <Component id="visitorButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="11" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="teamNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="teamNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="homeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="visitorButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="teamNameTextField">
+          <Events>
+            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="teamNameTextFieldFocusGained"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="teamNameTextFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="teamNameLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Team Name:  "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="homeButton">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Home"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="visitorButton">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Visitor"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="oneLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="twoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="threeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fourLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="4."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sevenLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="7."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="eightLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="8."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sixLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="6."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fiveLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nineLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="9."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="twoTextField">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="C.Cousins"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="twoTextFieldFocusGained"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="twoTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="threeTextField">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Etc..."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fourTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="sevenTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="eightTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="sixTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="fiveTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="nineTextField">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="oneComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="10">
+            <StringItem index="0" value="Choose a selection"/>
+            <StringItem index="1" value="Pitcher"/>
+            <StringItem index="2" value="Catcher"/>
+            <StringItem index="3" value="First base"/>
+            <StringItem index="4" value="Second base"/>
+            <StringItem index="5" value="Third base"/>
+            <StringItem index="6" value="Short stop"/>
+            <StringItem index="7" value="Left field"/>
+            <StringItem index="8" value="Center field"/>
+            <StringItem index="9" value="Right field"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="oneComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="twoComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="10">
+            <StringItem index="0" value="Choose a selection"/>
+            <StringItem index="1" value="Pitcher"/>
+            <StringItem index="2" value="Catcher"/>
+            <StringItem index="3" value="First base"/>
+            <StringItem index="4" value="Second base"/>
+            <StringItem index="5" value="Third base"/>
+            <StringItem index="6" value="Short stop"/>
+            <StringItem index="7" value="Left field"/>
+            <StringItem index="8" value="Center field"/>
+            <StringItem index="9" value="Right field"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="twoComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="fourComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="10">
+            <StringItem index="0" value="Choose a selection"/>
+            <StringItem index="1" value="Pitcher"/>
+            <StringItem index="2" value="Catcher"/>
+            <StringItem index="3" value="First base"/>
+            <StringItem index="4" value="Second base"/>
+            <StringItem index="5" value="Third base"/>
+            <StringItem index="6" value="Short stop"/>
+            <StringItem index="7" value="Left field"/>
+            <StringItem index="8" value="Center field"/>
+            <StringItem index="9" value="Right field"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fourComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="threeComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="10">
+            <StringItem index="0" value="Choose a selection"/>
+            <StringItem index="1" value="Pitcher"/>
+            <StringItem index="2" value="Catcher"/>
+            <StringItem index="3" value="First base"/>
+            <StringItem index="4" value="Second base"/>
+            <StringItem index="5" value="Third base"/>
+            <StringItem index="6" value="Short stop"/>
+            <StringItem index="7" value="Left field"/>
+            <StringItem index="8" value="Center field"/>
+            <StringItem index="9" value="Right field"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="threeComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="fiveComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="10">
+            <StringItem index="0" value="Choose a selection"/>
+            <StringItem index="1" value="Pitcher"/>
+            <StringItem index="2" value="Catcher"/>
+            <StringItem index="3" value="First base"/>
+            <StringItem index="4" value="Second base"/>
+            <StringItem index="5" value="Third base"/>
+            <StringItem index="6" value="Short stop"/>
+            <StringItem index="7" value="Left field"/>
+            <StringItem index="8" value="Center field"/>
+            <StringItem index="9" value="Right field"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fiveComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="sixComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="10">
+            <StringItem index="0" value="Choose a selection"/>
+            <StringItem index="1" value="Pitcher"/>
+            <StringItem index="2" value="Catcher"/>
+            <StringItem index="3" value="First base"/>
+            <StringItem index="4" value="Second base"/>
+            <StringItem index="5" value="Third base"/>
+            <StringItem index="6" value="Short stop"/>
+            <StringItem index="7" value="Left field"/>
+            <StringItem index="8" value="Center field"/>
+            <StringItem index="9" value="Right field"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sixComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="sevenComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="10">
+            <StringItem index="0" value="Choose a selection"/>
+            <StringItem index="1" value="Pitcher"/>
+            <StringItem index="2" value="Catcher"/>
+            <StringItem index="3" value="First base"/>
+            <StringItem index="4" value="Second base"/>
+            <StringItem index="5" value="Third base"/>
+            <StringItem index="6" value="Short stop"/>
+            <StringItem index="7" value="Left field"/>
+            <StringItem index="8" value="Center field"/>
+            <StringItem index="9" value="Right field"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sevenComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="eightComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="10">
+            <StringItem index="0" value="Choose a selection"/>
+            <StringItem index="1" value="Pitcher"/>
+            <StringItem index="2" value="Catcher"/>
+            <StringItem index="3" value="First base"/>
+            <StringItem index="4" value="Second base"/>
+            <StringItem index="5" value="Third base"/>
+            <StringItem index="6" value="Short stop"/>
+            <StringItem index="7" value="Left field"/>
+            <StringItem index="8" value="Center field"/>
+            <StringItem index="9" value="Right field"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eightComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="nineComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="10">
+            <StringItem index="0" value="Choose a selection"/>
+            <StringItem index="1" value="Pitcher"/>
+            <StringItem index="2" value="Catcher"/>
+            <StringItem index="3" value="First base"/>
+            <StringItem index="4" value="Second base"/>
+            <StringItem index="5" value="Third base"/>
+            <StringItem index="6" value="Short stop"/>
+            <StringItem index="7" value="Left field"/>
+            <StringItem index="8" value="Center field"/>
+            <StringItem index="9" value="Right field"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nineComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="okButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="okButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="exitButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Exit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exitButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="clearButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clear"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
