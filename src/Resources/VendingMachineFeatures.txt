@@ -1,0 +1,25 @@
+         VendingMachine started 11/5 - VendingMachine finished 11/7
+
+////////////////////////////////////////////////////////////////////////////////////
+				VendingMachine Known Bugs, TODO fixes
+			<!> = HIGHEST PRIORITY FIX - IMPACTS BASIC FUNCTIONALITY
+			<1> = HIGH PRIORITY FIX - IMPACTS EFFICIENCY
+			<2> = MEDIUM PRIORITY FIX - IMPACTS STYLE OR MIGHT CONFUSE USER (IMAGES, SOUNDS, ANIMATONS)
+<2>1.) Add animations
+<2>2.) Add sounds
+<2>3.) Make buttons look less crude -> import better matching beverage images
+<2>4.) Need bottom display to look less crude
+<2>5.) Background image for the vendingMachine png (don't want it behind gray background)
+<1>6.)THIS HAS BEEN FIXED 10:45 11/7---  (Buttons didn't reset to lightgray when credits reached 0)
+<1>7.) Need to think of when to call restock() method to refill the vending machine
+<!>8.)THIS HAS BEEN FIXED 10:45 11/7--- (VendingMachine's credits could go negative in some situations)
+<2>9.) VendingMachines refund() method might be changed to getTotal() for readability?
+<1>10.)Need to remove if check for button color changing from every beverage button
+<2>11.)THIS HAS BEEN FIXED 10:45 11/7--- VedingMachine's bottom displaypanel always needs to be reset after a credit is entered
+////////////////////////////////////////////////////////////////////////////////////
+				VendingMachine Future Uses
+1.) Declare multiple types of VendingMachine that hold snacks, snacks + drinks
+2.) Different types of VendingMachines to carry more than 10
+3.) Use a Beverage[] to hold a Beverage object (pepsi) and get rid of the quantity variable 
+    then load the Beverage array into the map. Or use a stack...but figure out how you do a stack in java without pointers so you dont use vectors
+
