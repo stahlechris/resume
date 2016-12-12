@@ -1,6 +1,8 @@
 # resume
 A repository for code listed on my resume.
-This showcases some work that I have done throughout my coding education through Webster University.
-This repo will be constantly added to.
+Project customermaintenancesql showcases connecting to a database and working with SQL & Java and should be looked at.
+xml_assignment should also be looked at - it showcases my ability to work with XML files in a project.
+The homemade projects showcase my ability to create data structures from scratch. This shows I understand how the "behind the scenes" work is going on when using collections in programs.
 
-!Not all projects in this repo are completely finished. This is because it's important to show progress.
+!Most of these projects are examples showcasing a certain skill I have.
+This repo will be constantly updated.
