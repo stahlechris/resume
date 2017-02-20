@@ -1,0 +1,5 @@
+bran flakes, 3, 6, 18, 10, 2
+apple pie, 2420, 38, 2, 46, 42
+banana, 105, 1, 1, 1, 1
+tortillas, 65, 2, 16, 10, 2
+hamburger, 250, 12, 12, 200, 8
