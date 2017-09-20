@@ -1,19 +1,5 @@
-//****************************************************************************************************
 //
-//		File:					Sort1.cpp
-//
-//		Student:				Chris Stahle
-//
-//		Assignment:	 			Program  # 4
-//
-//		Course Name:			Data Structures II
-//
-//		Course Number:			COSC 3100 - 01
-//
-//		Due:					April 19, 2016
-//
-//
-//		This program uses 3 different sorting algorithms to sort a csv file. Then, it compares
+//		This program uses 3 different sorting algorithms(selection, bubble, insertion) to sort a csv file. Then, it compares
 //		the efficiency of each algorithm. 
 //****************************************************************************************************
 #include <iostream>
