@@ -1,3 +1,5 @@
+//This program tests the performace of parallellizing data by using streams. '
+//I am analyzing efficiency by splitting one task into multiple parts to be handled in parralell by computer cores. 
 package parallellizationperformancetesting;
 
 import java.util.function.Function;
