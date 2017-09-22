@@ -1,3 +1,4 @@
+//This program contains solutions to common problems using Java 1.8 streams and lambdas
 package streamandlamdasolutions;
 
 import java.util.*;
