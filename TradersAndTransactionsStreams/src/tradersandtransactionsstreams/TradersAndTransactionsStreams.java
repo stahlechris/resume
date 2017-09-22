@@ -1,3 +1,4 @@
+//This program highlights how easy it is to sort and manipulate mass data within a java program when Java 1.8 is installed. 
 package tradersandtransactionsstreams;
 
 import java.util.*;
