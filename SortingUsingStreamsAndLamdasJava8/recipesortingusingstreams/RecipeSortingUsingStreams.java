@@ -1,3 +1,4 @@
+//This program shows a quick example of how easy Java 1.8 makes sorting data.
 package recipesortingusingstreams;
 //author : christopher stahle
 import java.util.*;
